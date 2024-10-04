@@ -1,7 +1,15 @@
-[insert logo]
-
-# Print Shop
-Create Production-Grade Print Materials the Figma Way
+<div align="center">
+	<a href="https://polar.sh/printshop/">
+		<img src="media/print-shop-logo.svg" width="200" height="200">
+	</a>
+	<h1>Print Shop</h1>
+	<p>
+		<b>Create Production-Grade Print Materials the Figma Way</b>
+	</p>
+	<br>
+	<br>
+	<br>
+</div>
 
 ### Install
 [link to figma communtiy plugin page]

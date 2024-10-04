@@ -8,32 +8,32 @@ body:
       options:
         - label: Completed
           required: true
-
-  - type: markdown
+  - type: textarea
     attributes:
       label: Describe the bug / provide steps to reproduce it
-      description: Describe the issue you are experiencing with Print Shop. Provide a clear and concise description of what you were trying to do and what happened, along with any error messages you encountered.
+      description: |
+        Describe the issue you are experiencing with Print Shop. Provide a clear and concise description of what you were trying to do and
+        what happened, along with any error messages you encountered.
     validations:
       required: true
-
   - type: input
     attributes:
       label: Operating system
-      description:
+      description: |
         "Enter the specific operating system version you are running (example:
-        Windows 10, Mac OS, iOS)"
+        Windows 10, Mac OS)"
     validations:
       required: true
-
   - type: textarea
     attributes:
-      label:
-      description: "Are you using the figma browser or the desktop application. If relevant, do you have the font installer downloaded?"
+      label: Browser or Desktop
+      description: |
+        "Are you using the figma browser, desktop or mobile application. If relevant, do you have the font installer downloaded?"
     validations:
       required: true
-
   - type: textarea
-    id: screenshots
     attributes:
       label: Screenshots
       description: Add screenshots to help explain your problem, if applicable.
+    validations:
+      required: false

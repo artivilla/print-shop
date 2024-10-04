@@ -1,0 +1,39 @@
+name: 🐛 Bug Report
+description: File a bug report
+body:
+  - type: checkboxes
+    attributes:
+      label: Check for existing issues
+      description: Check the backlog of issues to reduce the chances of creating duplicates; if an issue already exists, place a `+1` (👍) on it.
+      options:
+        - label: Completed
+          required: true
+
+  - type: markdown
+    attributes:
+      label: Describe the bug / provide steps to reproduce it
+      description: Describe the issue you are experiencing with Print Shop. Provide a clear and concise description of what you were trying to do and what happened, along with any error messages you encountered.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Operating system
+      description:
+        "Enter the specific operating system version you are running (example:
+        Windows 10, Mac OS, iOS)"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label:
+      description: "Are you using the figma browser or the desktop application. If relevant, do you have the font installer downloaded?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots to help explain your problem, if applicable.

@@ -17,8 +17,7 @@
 ## Features
 Features are listed under our plans on our [product page](https://polar.sh/printshop/)
 
-## Screenshots
-[link to screenshots in this repo]
+<img src="media/product-cover.png" width="600">
 
 ## FAQs
 
@@ -29,6 +28,14 @@ Yes, you can use the plugin for 14 days after which you would need to purchase a
 #### I'm having issues with my account. How do I get in touch?
 
 For questions related directly to your account such as billing and upgrades, you can email me directly at printshop[at]artivilla.com.
+
+#### I don't see the artboard or the grids when I hit create?
+
+You need to enable `Show layout grids` by hitting shift+G or finding it in the figma quick menu bar UI3 panel (cmd+k). The frame gets created in the middle of the artboard so you might need to zoom out or move to the center of the canvas. This is a known bug.
+
+#### How do I manage my presets?
+
+Also a missing feature that will be added in upcoming releases.
 
 ## Built with
 - [Create Figma Plugin](https://yuanqing.github.io/create-figma-plugin/)

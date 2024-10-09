@@ -1,6 +1,6 @@
 <div align="center">
 	<a href="https://polar.sh/printshop/">
-		<img src="media/print-shop-logo.svg" width="200" height="200">
+		<img src="media/plugin-icon.svg" width="200" height="200">
 	</a>
 	<h1>Print Shop</h1>
 	<p>

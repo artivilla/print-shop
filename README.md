@@ -12,7 +12,7 @@
 </div>
 
 ## Install
-[link to figma communtiy plugin page]
+[Figma Community Plugin link](https://www.figma.com/community/plugin/1424982146746230741/print-shop)
 
 ## Features
 Features are listed under our plans on our [product page](https://polar.sh/printshop/)
